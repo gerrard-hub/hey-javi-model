@@ -3,7 +3,7 @@
   "wake_word": "Hey Javi",
   "author": "custom",
   "website": "",
-  "model": "hey_javi.tflite",
+  "model": "https://raw.githubusercontent.com/gerrard-hub/hey-javi-model/main/hey_javi.tflite",
   "trained_languages": ["ko"],
   "version": 1,
   "micro": {
