@@ -2,7 +2,7 @@
   "type": "micro",
   "wake_word": "Hey Javi",
   "author": "custom",
-  "website": "",
+  "website": "https://github.com/gerrard-hub/hey-javi-model",
   "model": "https://raw.githubusercontent.com/gerrard-hub/hey-javi-model/main/hey_javi.tflite",
   "trained_languages": ["ko"],
   "version": 1,
