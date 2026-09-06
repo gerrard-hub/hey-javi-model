@@ -1,0 +1,15 @@
+{
+  "type": "micro_wake_word_model",
+  "wake_word": "hey_javi",
+  "author": "custom",
+  "website": "",
+  "version": 1,
+  "micro": {
+    "model": "hey_javi.tflite",
+    "classes": [
+      "hey_javi"
+    ],
+    "trained_steps": 20000,
+    "version": 1
+  }
+}
