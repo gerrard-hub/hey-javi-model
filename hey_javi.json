@@ -3,14 +3,10 @@
     "wake_word": "Hey Javi",
     "author": "custom",
     "website": "https://github.com/gerrard-hub/hey-javi-model",
-    "model": "https://raw.githubusercontent.com/gerrard-hub/hey-javi-model/main/hey_javi.tflite",
-    "trained_languages": ["ko"],
+    "model": "./hey_javi.tflite",
     "version": 1,
     "micro": {
         "probability_cutoff": 0.8,
-        "feature_step_size": 10,
-        "sliding_window_size": 16,
-        "tensor_arena_size": 32000,
-        "minimum_esphome_version": "2024.7.0"
+        "sliding_window_average_size": 10
     }
 }
